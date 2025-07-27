@@ -15,8 +15,4 @@ public abstract class Luces {
     public boolean isLucesActivas() {
         return lucesActivas;
     }
-    protected void encenderLuz(){
-       this.lucesActivas = false; 
-    }
 }
-    
